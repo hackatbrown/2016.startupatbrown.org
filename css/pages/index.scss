@@ -23,7 +23,7 @@ body {
   max-width: 1440px;
   margin: auto;
   background-color: white;
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 
@@ -47,10 +47,10 @@ body > section {
 }
 
 
- img { 
+ img {
    height: auto;
    width: auto;
- } 
+ }
 
 svg.slant {
   pointer-events: none;
@@ -105,7 +105,7 @@ svg.slant {
 
 #first-impression {
 	//-webkit-transform: translateZ(0);
-	
+
 }
 
 #logo {
@@ -119,16 +119,16 @@ svg.slant {
   width: 40%;
   z-index:2;
 }
-  
+
  #logo-symbol {
-  width: 15%;	 
+  width: 15%;
   z-index: 3;
   margin-top: -50px;
   @media (max-width: $screen-sm-max) {
     width: 23%;
   }
  }
- 
+
  #logo-letters {
   display: block;
   margin-top: -20px;
@@ -136,11 +136,11 @@ svg.slant {
     width: 75%;
   }
  }
-    
+
  #tagline {
 	 margin-top: -7px;
 	 font-size: 1.5em;
-	 
+
 	 @media (max-width: $screen-sm-max) {
 	   font-size: medium;
    }
@@ -152,19 +152,19 @@ svg.slant {
   font-size: 1.2em;
   font-weight: bold;
   margin-top: -10px;
-  
-  
+
+
   @media (max-width: $screen-sm-max) {
 	  font-size: small;
 	 }
  }
- 
+
  #register-button {
     margin-top: 18px;
     color: #ffc963;
     border: 3px solid #ffc963;
     border-radius: 5px;
-    
+
     -webkit-transition: opacity 3s ease-in-out;
     -moz-transition: opacity 3s ease-in-out;
     -ms-transition: opacity 3s ease-in-out;
@@ -175,7 +175,7 @@ svg.slant {
     opacity: 0;
 }
 #register-button:after {
-    background: rgba(255, 201, 99, 0.89) !important; 
+    background: rgba(255, 201, 99, 0.89) !important;
 
 }
 
@@ -203,7 +203,7 @@ svg.slant {
     &.gold {
       background: $brand-gold;
     }
-    
+
     @media (max-width: $screen-sm-max) {
 	    //visibility: hidden;
 /*
@@ -211,7 +211,7 @@ svg.slant {
   	    transform: translate(-85%, -10%);
   	    transform: rotate(-40deg);
 	    }
-	    
+
 	    &#top-right-gold {
   	    transform: translate(85%, -98%);
   	    transform: rotate(-30deg);
@@ -224,9 +224,9 @@ svg.slant {
   	    transform: translate(-15%, 90%);
   	    transform: rotate(5deg);
 	    }
-	    
+
 */
-	    
+
     }
   }
 
@@ -237,11 +237,11 @@ svg.slant {
        transform: translate(-115%, -60%)rotate(-40deg);
        -webkit-transform: translate(-115%, -60%)rotate(-40deg);
 	   }
-	   
+
 	   @media (max-width: 1400px) {
       margin-left: -100px;
 	   }
-	   
+
   }
 
   #top-right-gold {
@@ -269,7 +269,7 @@ svg.slant {
     width: 128%;
     height: 220%;
 
-	background: -webkit-linear-gradient(rgba(255, 60, 102, 0.9)  1.17%, #ff0b40 110%);  
+	background: -webkit-linear-gradient(rgba(255, 60, 102, 0.9)  1.17%, #ff0b40 110%);
 //     @include linear-gradient(left, rgba(255,60,102,0.9) 1.17%, $brand-red 110%);
     @media (max-width: $screen-sm-max) {
       transform: translate(95%, -20%)rotate(30deg);
@@ -305,7 +305,7 @@ svg.slant {
 
 /* Intro */
 #intro {
-  padding: 60px 0; 
+  padding: 60px 0;
   background-color: white;
 }
 
@@ -313,7 +313,7 @@ svg.slant {
   @include make-md-column(6);
 
   font-size: 1.75em;
-  color: $brand-red;  
+  color: $brand-red;
 }
 
 .intro-description {
@@ -346,14 +346,14 @@ svg.slant {
   padding: 0 20px;
   word-wrap: break-word;
   h2 {
-    color: white;  
+    color: white;
     word-wrap: break-word;
   }
 
   p {
     color: $grey-lighter;
   }
-  
+
   @media (max-width: $screen-sm-max) {
     margin-bottom: -30px;
 
@@ -361,7 +361,7 @@ svg.slant {
   	  word-wrap: break-word;
   	  padding-right: 5px;
   	  overflow: hidden;
-  	  
+
     }
   }
 }
@@ -370,7 +370,7 @@ svg.slant {
   width: 100%;
   margin: 0;
   padding: 0;
-  
+
   list-style: none;
 
   /* Clearfix */
@@ -389,19 +389,19 @@ svg.slant {
     background-color: black;
     border: 2px solid white;
     border-top-width: 0;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-    
+
+
     @media (max-width: $screen-sm-max) {
       min-height: 350px;
       width: 100%;
       border: 0 !important;
     }
-    
+
     &:nth-child(1) {
       margin-top: 165px;
       border-top: 2px solid white;
@@ -409,18 +409,18 @@ svg.slant {
 
       @media (max-width: $screen-xs-max) {
         margin-top: 80px;
-      } 
+      }
     }
 
     &:nth-child(2) {
       margin-top: -190px;
-     
+
       @media (max-width: $screen-sm-max) {
         margin-top: 0px;
       }
     }
-    
-    &:nth-child(3) {  
+
+    &:nth-child(3) {
       @media (max-width: $screen-sm-max) {
       }
     }
@@ -464,7 +464,7 @@ svg.slant {
 
   height: 70px;
   padding: 10px 16px;
-  
+
   background-color: rgba(0,0,0,0.25);
 
   p {
@@ -485,16 +485,16 @@ svg.slant {
 #jerry {
   background: url("../../img/speakers/jerry2.jpg") no-repeat;
    @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
+    background-position: 0px 0px;
   }
 }
 
 #peter {
   background: url("../../img/speakers/peter2.png") no-repeat;
-  background-position: 0px -33px; 
+  background-position: 0px -33px;
   background-size: auto 430px !important;
   @media (max-width: $screen-sm-max) {
-    background-position: -70px 0px; 
+    background-position: -70px 0px;
 
     .speaker-label {
       height: 100px;
@@ -504,38 +504,38 @@ svg.slant {
 
 #eveline {
   background: url("../../img/speakers/eveline.jpg") no-repeat;
-  background-position: 0px -33px; 
+  background-position: 0px -33px;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
+    background-position: 0px 0px;
   }
 }
 
 #evan {
   background: url("../../img/speakers/evan.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: -50px 0px; 
+    background-position: -50px 0px;
   }
 }
 
 #kevin {
   background: url("../../img/speakers/kevin2.jpg") no-repeat;
   @media (max-width: $screen-sm-max) {
-    background-position: 0px 0px; 
+    background-position: 0px 0px;
   }
 }
 
 #jason {
   background: url("../../img/speakers/jason.png") no-repeat;
-  background-position: 0px -79px; 
+  background-position: 0px -79px;
 
   @media (max-width: $screen-sm-max) {
-    background-position: 0px -20px; 
+    background-position: 0px -20px;
   }
 }
 
 #ben {
   background: url("../../img/speakers/peter.jpg") no-repeat;
-  background-position: 0px -33px; 
+  background-position: 0px -33px;
 }
 
 #matt {
@@ -547,7 +547,7 @@ svg.slant {
 
   background: url("../../img/speakers/matt.jpg") no-repeat;
   background-size: auto 430px !important;
-  background-position: 30px auto; 
+  background-position: 30px auto;
 }
 
 #matt .speaker-label, #jason .speaker-label {
@@ -727,11 +727,15 @@ svg.slant {
 #secondspectrum {
   height: 70px;
 }
-#bluejeans {
+#coursera {
   height: 45px;
 }
 
-#onRed {
+#airbnb {
+  height: 80px;
+}
+
+#onRed, #peerInsight {
   height: 40px;
 }
 
@@ -810,7 +814,7 @@ svg.slant {
     content: "";
     position: absolute;
     left: 106px;
-    
+
     height: 115%;
     width: 4px;
 
@@ -825,7 +829,7 @@ svg.slant {
 
   li {
     margin-bottom: 30px;
-  
+
     @media (max-width: $screen-sm-max) {
       font-size: small;
     }
@@ -866,15 +870,15 @@ svg.slant {
   position: absolute;
   bottom: 0;
 
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
 
   border-top: 120px solid transparent;
   border-bottom: 120px solid transparent;
   border-left: 220px solid rgba(250, 193, 82, 0.74);
 
   z-index: 3 !important;
-  
+
    @media (max-width: $screen-sm-max) {
   	  visibility: hidden;
     }
@@ -890,7 +894,7 @@ svg.slant {
 #faq {
   padding: 50px 0;
   background-color: rgba(250, 250, 250, 1);
-  
+
   h2 {
   	color: $grey-dark;
   }
@@ -907,7 +911,7 @@ svg.slant {
   h3 + p {
     margin: 0;
   }
-  
+
   .container {
   	padding-top: 50px;
   }
@@ -916,7 +920,7 @@ svg.slant {
 #workshops-section {
   padding: 50px 0;
   background-color: white;
-  
+
   h2 {
   	color: $grey-dark;
   }
@@ -933,7 +937,7 @@ svg.slant {
   h3 + p {
     margin: 0;
   }
-  
+
   .container {
   	padding-top: 50px;
   }
@@ -964,7 +968,7 @@ svg.slant {
 	  color: $grey-dark;
   }
 }
-  
+
 /* Map */
 #map {
   position: relative;
@@ -995,11 +999,11 @@ svg.slant {
   h3 + p {
     margin: 0;
   }
-  
+
   a {
     color: $grey-dark;
   }
-  
+
   @media (max-width: $screen-sm-max) {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -1009,14 +1013,14 @@ svg.slant {
   @media (max-width: $screen-xs-max) {
     width: 80%;
   }
-  
+
   // iPhone 6 specific
-  @media only screen and (min-device-width: 374px) and (max-device-width: 376px) and (orientation : portrait)  { 
+  @media only screen and (min-device-width: 374px) and (max-device-width: 376px) and (orientation : portrait)  {
     left: 15%;
     top: 20%;
   }
   // iPhone 6+ specific
-  @media only screen and (min-device-width: 413px) and (max-device-width: 415px) and (orientation : portrait) { 
+  @media only screen and (min-device-width: 413px) and (max-device-width: 415px) and (orientation : portrait) {
     left: 15%;
     top: 20%;
   }
