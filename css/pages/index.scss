@@ -489,6 +489,41 @@ svg.slant {
   }
 }
 
+#liz {
+  background: url("../../img/speakers/liz.jpg") no-repeat;
+   @media (max-width: $screen-sm-max) {
+    background-position: 0px 0px;
+  }
+}
+
+#melissa {
+  background: url("../../img/speakers/melissa_w.jpg") no-repeat;
+  //background-size: contain  !important;
+
+   @media (max-width: $screen-sm-max) {
+    background-position: 0px 0px;
+  }
+}
+
+#luke {
+  background: url("../../img/speakers/luke_s.jpg") no-repeat;
+  background-position: 0px -70px;
+
+   @media (max-width: $screen-sm-max) {
+    background-position: 0px 0px;
+  }
+}
+
+#gabe {
+  background: url("../../img/speakers/gabriel_flateman.jpg") no-repeat;
+  //background-size: auto 430px !important;
+  background-position: 0px -70px;
+
+   @media (max-width: $screen-sm-max) {
+    background-position: 0px 0px;
+  }
+}
+
 #peter {
   background: url("../../img/speakers/peter2.png") no-repeat;
   background-position: 0px -33px;
