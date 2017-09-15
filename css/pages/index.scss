@@ -425,11 +425,11 @@ svg.slant {
       }
     }
 
-    &:nth-child(4) {
-      border-right-width: 0;
-    }
+    // &:nth-child(4) {
+    //   border-right-width: 0;
+    // }
 
-    &:nth-child(6) {
+    &:nth-child(4) {
       margin-top: -45px;
       border-right-width: 0;
 
@@ -444,7 +444,7 @@ svg.slant {
       }
     }
 
-    &:nth-child(7) {
+    &:nth-child(5) {
       .speaker-label {
         height: 130px;
 
@@ -489,8 +489,8 @@ svg.slant {
   }
 }
 
-#liz {
-  background: url("../../img/speakers/liz.jpg") no-repeat;
+#josh_justin {
+  background: url("../../img/speakers/josh_justin.jpg") no-repeat;
    @media (max-width: $screen-sm-max) {
     background-position: 0px 0px;
   }
@@ -514,10 +514,10 @@ svg.slant {
   }
 }
 
-#gabe {
-  background: url("../../img/speakers/gabriel_flateman.jpg") no-repeat;
+#kat {
+  background: url("../../img/speakers/kat2.jpg") no-repeat;
   //background-size: auto 430px !important;
-  background-position: 0px -70px;
+  background-position: 0px 0px;
 
    @media (max-width: $screen-sm-max) {
     background-position: 0px 0px;
@@ -526,7 +526,7 @@ svg.slant {
 
 #peter {
   background: url("../../img/speakers/peter2.png") no-repeat;
-  background-position: 0px -33px;
+  background-position: 0px -20px;
   background-size: auto 430px !important;
   @media (max-width: $screen-sm-max) {
     background-position: -70px 0px;
@@ -537,9 +537,9 @@ svg.slant {
   }
 }
 
-#eveline {
-  background: url("../../img/speakers/eveline.jpg") no-repeat;
-  background-position: 0px -33px;
+#cliff {
+  background: url("../../img/speakers/cliff.jpg") no-repeat;
+  background-position: -15px 0px;
   @media (max-width: $screen-sm-max) {
     background-position: 0px 0px;
   }
@@ -573,16 +573,16 @@ svg.slant {
   background-position: 0px -33px;
 }
 
-#matt {
+#clement {
   @media (min-width: $screen-sm-max) {
     margin-top: -45px;
   }
 
   background-color: #F6F6F6 !important;
 
-  background: url("../../img/speakers/matt.jpg") no-repeat;
-  background-size: auto 430px !important;
-  background-position: 30px auto;
+  background: url("../../img/speakers/clement2.jpg") no-repeat;
+  //background-size: auto 430px !important;
+  background-position: -250px 0px;
 }
 
 #matt .speaker-label, #jason .speaker-label {
