@@ -15,6 +15,12 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  &[disabled] {
+    cursor: default;
+    opacity: .5;
+    pointer-events: none;
+  }
 }
 
 .btn-primary {

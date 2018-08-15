@@ -28,6 +28,12 @@
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+
+  &[disabled] {
+    cursor: default;
+    opacity: .7;
+    pointer-events: none;
+  }
 }
 
 #register-button:after {
