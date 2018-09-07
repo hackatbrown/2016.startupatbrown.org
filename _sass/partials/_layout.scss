@@ -1,8 +1,14 @@
 /* Layout */
 * {
   box-sizing: border-box;
-  transition: 0.25s;
+  transition:  all .15s;
 }
+
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 
 .container {
   max-width: 1024px;

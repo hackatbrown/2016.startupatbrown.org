@@ -1,0 +1,22 @@
+.home-2018 {
+  min-height: 100%;
+
+  header .stripes {
+    height: 100vh;
+    display: grid;
+    grid: repeat(5, 200px) / repeat(10, 1fr);
+  }
+
+  header .stripes :nth-child(1) {
+    grid-column: span 3;
+  }
+
+  header .stripes :nth-child(2) {
+    grid-area: 3 / span 3 / auto / -1;
+  }
+
+  header .stripes :nth-child(3) {
+    grid-row: 4;
+    grid-column: span 5;
+  }
+}
