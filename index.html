@@ -1,30 +1,31 @@
 ---
 layout: base
 css:
-  - pages/index.css
+- pages/index.css
 ---
 
-<body id="skrollr-body" >
+<body id="skrollr-body">
   <!-- Facebook SDK -->
   <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=610602015680966";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=610602015680966";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
   <!--   {% include nav.html %} -->
 
   <section id="splash">
     <div style="transform: translate3d(0,0,0);"></div>
     <div class="container">
-      <div id="first-impression" class="row"  data-0="transform:translate(0,0%);" data-50p="transform:translate(0,50%);">
+      <div id="first-impression" class="row" data-0="transform:translate(0,0%);" data-50p="transform:translate(0,50%);">
         <!-- Logo -->
-        <img data-0="transform:translate(0,0%);" data-40p="transform:translate(0,40%);" data-110p="transform:translate(0,280%);" id="logo-symbol" class="logo " src="img/logo-bigger.png">
-        <img id="logo-letters" class="logo" src="img/logo-letters.png"
-          data-0="opacity:1; transform:translate(0,0%)" data-23p="transform:translate(0,20%)" data-25p="opacity:0;">
+        <img data-0="transform:translate(0,0%);" data-40p="transform:translate(0,40%);" data-110p="transform:translate(0,280%);"
+          id="logo-symbol" class="logo " src="img/logo-bigger.png">
+        <img id="logo-letters" class="logo" src="img/logo-letters.png" data-0="opacity:1; transform:translate(0,0%)"
+          data-23p="transform:translate(0,20%)" data-25p="opacity:0;">
 
         <h3 id="tagline" data-0="opacity:1;" data-18p="opacity:0;">CONNECTING STUDENTS AND STARTUPS</h3>
         <p id="event-info" data-0="opacity:1;" data-18p="opacity:0;">September 29, 2018 at Brown University</p>
@@ -35,24 +36,16 @@ css:
     </div>
 
     <div class="background">
-      <div id="top-left-red" class="shape red"
-        data-top="transform:translate(-85%,-10%)rotate(-40deg);"
-        data-top-bottom="transform:translate(-45%,10%)rotate(-50deg);" >
+      <div id="top-left-red" class="shape red" data-top="transform:translate(-85%,-10%)rotate(-40deg);" data-top-bottom="transform:translate(-45%,10%)rotate(-50deg);">
       </div>
-      <div id="top-right-gold" class="shape gold"
-        data-anchor-target="#splash"
-        data-top="transform:translate(85%,-98%)rotate(-30deg);"
+      <div id="top-right-gold" class="shape gold" data-anchor-target="#splash" data-top="transform:translate(85%,-98%)rotate(-30deg);"
         data-top-bottom="transform:translate(70%,-60%)rotate(5deg);">
       </div>
-      <div id="bottom-right-red" class="shape red"
-        data-anchor-target="#splash"
-        data--10-top="transform:translate(75%,-20%)rotate(30deg);"
+      <div id="bottom-right-red" class="shape red" data-anchor-target="#splash" data--10-top="transform:translate(75%,-20%)rotate(30deg);"
         data-top-bottom="transform:translate(40%,10%)rotate(30deg);">
       </div>
-      <div id="bottom-left-gold" class="shape gold"
-        data-anchor-target="#splash"
-        data-top="transform:translate(-15%,90%)rotate(5deg); opacity:1;"
-        data-55p="transform:translate(0,60%)rotate(0deg); opacity:0;" >
+      <div id="bottom-left-gold" class="shape gold" data-anchor-target="#splash" data-top="transform:translate(-15%,90%)rotate(5deg); opacity:1;"
+        data-55p="transform:translate(0,60%)rotate(0deg); opacity:0;">
       </div>
     </div>
   </section>
@@ -62,75 +55,82 @@ css:
       <div class="row">
         <h2>Connect and work<br> with innovative startups</h2>
         <div class="intro-description">
-          <p>Startup@Brown is a day-long conference on Saturday, September 29 at Brown University that brings together innovative startups and talented students.</p>
-          <p>Come to learn about startups and their stories. Leave with a new perspective and your next summer internship or full-time job.</p>
+          <p>Startup@Brown is a day-long conference on Saturday, September 29 at Brown University that brings together
+            innovative startups and talented students.</p>
+          <p>Come to learn about startups and their stories. Leave with a new perspective and your next summer
+            internship or full-time job.</p>
         </div>
       </div>
     </div>
   </section>
 
   <section id="speakers">
-    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+      viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 0 L100 100 L100 0 Z"></path>
     </svg>
     <div class="container">
       <div class="row">
         <div class="speakers-header ">
-          <h2>Past Speakers</h2>
-          <p>Last year featured a series of talks by trailblazing founders, entrepreneurs, and venture capitalists.</p>
+          <h2>Speakers</h2>
+          <p>This year features a series of talks by trailblazing founders, entrepreneurs, and venture capitalists.</p>
 
-          <p><strong>This year's lineup coming soon.</strong></p>
+          <!-- <p><strong>This year's lineup coming soon.</strong></p> -->
         </div>
       </div>
     </div>
     <ul class="thumbnails">
-      <li id="clement">
+      <li id="arnell">
         <div class="speaker-label">
-          <p class="speaker-name">Clement Cazalot</p>
-          <p class="speaker-description">Director, Techstars Boston</p>
+          <p class="speaker-name">Arnell Millhouse</p>
+          <p class="speaker-description"></p>
         </div>
       </li>
-      <li id="peter">
+      <li id="jessica">
         <div class="speaker-label">
-          <p class="speaker-name">Peter Boyce II</p>
-          <p class="speaker-description">Founder, Rough Draft Ventures; VC, General Catalyst</p>
+          <p class="speaker-name">Jessica Kim</p>
+          <p class="speaker-description"></p>
         </div>
       </li>
       <li id="kat">
         <div class="speaker-label">
-          <p class="speaker-name">Kat Mañalac</p>
+          <p class="speaker-name">Kat Mañalac (2017)</p>
           <p class="speaker-description">Partner, Y Combinator</p>
         </div>
       </li>
       <li id="josh_justin">
         <div class="speaker-label">
-          <p class="speaker-name">Joshua Cohen and Justin Kleene</p>
+          <p class="speaker-name">Joshua Cohen and Justin Kleene (2017)</p>
           <p class="speaker-description">Co-Founders of Amylyx, CEO and President</p>
         </div>
       </li>
-     <li id="cliff">
+      <li id="cliff">
         <div class="speaker-label">
-          <p class="speaker-name">Cliff Weitzman</p>
+          <p class="speaker-name">Cliff Weitzman (2017)</p>
           <p class="speaker-description">Founder, CEO, Speechify; Forbes Under 30</p>
         </div>
       </li>
     </ul>
-    <svg class="slant redslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant redslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+      viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 100 L105 100 L0 2 Z"></path>
     </svg>
   </section>
   <section id="items" width="100%">
-    <svg class="slant redslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant redslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102"
+      preserveAspectRatio="none">
       <path d="M0 0 L100 100 L100 0 Z"></path>
     </svg>
-    <svg class="slant whiteslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant whiteslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+      viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 100 L105 100 L0 2 Z"></path>
     </svg>
     <div id="items-container">
       <div id="startup-fair" class="item">
         <div class="speaker-label">
           <p class="speaker-name">Startup Fair</p>
-          <p class="speaker-description">Walk around, meet with startups and learn about their work, challenges, and career opportunities.</p>
+          <p class="speaker-description">Walk around, meet with startups and learn about their work, challenges, and
+            career opportunities.</p>
         </div>
       </div>
       <div id="small-conversations" class="item">
@@ -142,7 +142,8 @@ css:
       <div id="workshops" class="item">
         <div class="speaker-label">
           <p class="speaker-name">Workshops</p>
-          <p class="speaker-description">Learn about everything from scaling your tech stack to starting a company as a student.</p>
+          <p class="speaker-description">Learn about everything from scaling your tech stack to starting a company as a
+            student.</p>
         </div>
       </div>
     </div>
@@ -162,35 +163,38 @@ css:
         <div class="company-row">
           <a href="http://freenome.com" target="_blank"><img id="freenome" src="img/companies/freenome.png" class="img-responsive"></img></a>
           <a href="http://rubrik.com" target="_blank"><img id="rubrik" src="img/companies/rubrik.png" class="img-responsive"></img></a>
-          <a href="http://splitwise.com" target="_blank"><img id="splitwise" src="img/companies/splitwise.png"class="img-responsive"></img></a>
+          <a href="http://splitwise.com" target="_blank"><img id="splitwise" src="img/companies/splitwise.png" class="img-responsive"></img></a>
         </div>
         <div class="company-row">
-         <a href="http://interana.com" target="_blank"><img id="interana" src="img/companies/interana.png" class="img-responsive"></img></a>
-         <a href="http://cloudera.com" target="_blank"><img id="cloudera" src="img/companies/cloudera.png"class="img-responsive"></img></a>
-         <a href="http://navtalent.com" target="_blank"><img id="scouted" src="img/companies/navtalent.png" class="img-responsive"></img></a>
+          <a href="http://interana.com" target="_blank"><img id="interana" src="img/companies/interana.png" class="img-responsive"></img></a>
+          <a href="http://cloudera.com" target="_blank"><img id="cloudera" src="img/companies/cloudera.png" class="img-responsive"></img></a>
+          <a href="http://navtalent.com" target="_blank"><img id="scouted" src="img/companies/navtalent.png" class="img-responsive"></img></a>
         </div>
 
-         <div class="company-row">
+        <div class="company-row">
           <a href="http://actioniq.com" target="_blank"><img id="actioniq" src="img/companies/actioniq2.png" class="img-responsive"></img></a>
           <a href="http://upserve.com" target="_blank"><img id="upserve" src="img/companies/upserve.png" class="img-responsive"></img></a>
-          <a href="http://automatework.com" target="_blank"><img id="automatework" src="img/companies/AutomateWork2.png" class="img-responsive"></img></a>
+          <a href="http://automatework.com" target="_blank"><img id="automatework" src="img/companies/AutomateWork2.png"
+              class="img-responsive"></img></a>
         </div>
-         <!-- <div class="company-row">
+        <!-- <div class="company-row">
           <a href="http://optoro.com" target="_blank"><img id="optoro" src="img/companies/optoro.png" class="img-responsive"></img></a>
           <a href="http://mojotech.com" target="_blank"><img id="mojotech" src="img/companies/mojotech.png" class="img-responsive"></img></a>
           <a href="http://airbnb.com" target="_blank"><img id="airbnb" src="img/companies/airbnb.png" class="img-responsive"></img></a>
         </div> -->
 
         <div class="company-row">
-         <a href="https://www.getbread.com" target="_blank"><img id="bread" src="img/companies/Bread.png" class="img-responsive"></img></a>
-         <a href="http://pangeamart.com" target="_blank"><img id="pangea" src="img/companies/pangea.png"class="img-responsive"></img></a>
-         <a href="http://getspeechify.com" target="_blank"><img id="speechify " src="img/companies/speechify.png"class="img-responsive"></img></a>
-         <a href="http://generalcatalyst.com" target="_blank"><img id="general-catalyst" src="img/companies/general-catalyst.png" class="img-responsive"></img></a>
-       </div>
+          <a href="https://www.getbread.com" target="_blank"><img id="bread" src="img/companies/Bread.png" class="img-responsive"></img></a>
+          <a href="http://pangeamart.com" target="_blank"><img id="pangea" src="img/companies/pangea.png" class="img-responsive"></img></a>
+          <a href="http://getspeechify.com" target="_blank"><img id="speechify " src="img/companies/speechify.png"
+              class="img-responsive"></img></a>
+          <a href="http://generalcatalyst.com" target="_blank"><img id="general-catalyst" src="img/companies/general-catalyst.png"
+              class="img-responsive"></img></a>
+        </div>
 
 
 
-       <!-- <div class="company-row">
+        <!-- <div class="company-row">
          <a href="http://wayup.com" target="_blank"><img id="wayup" src="img/companies/wayup.png" class="img-responsive"></img></a>
          <a href="http://www.parkwithspotter.com/" target="_blank"><img id="spotter" src="img/companies/spotter_logo.jpg" class="img-responsive"></img></a>
 
@@ -198,7 +202,8 @@ css:
         </div> -->
 
         <div class="company-row">
-          <a href="http://www.parkwithspotter.com/" target="_blank"><img id="spotter" src="img/companies/spotter_logo.jpg" class="img-responsive"></img></a>
+          <a href="http://www.parkwithspotter.com/" target="_blank"><img id="spotter" src="img/companies/spotter_logo.jpg"
+              class="img-responsive"></img></a>
           <a href="http://roughdraft.vc" target="_blank"><img id="rdv" src="img/companies/rdv.jpg" class="img-responsive"></img></a>
           <a href="http://techstars.com" target="_blank"><img id="techstars" src="img/companies/techstars.jpg" class="img-responsive"></img></a>
           <a href="http://ycombinator.com" target="_blank"><img id="yc" src="img/companies/YC.png" class="img-responsive"></img></a>
@@ -208,7 +213,7 @@ css:
       <div class="row">
         <h1 class="sponsors-question secondary">Interested in sponsoring for 2018?</h1>
         <p>
-          <a href="/participate" target="_blank">Learn more</a>, or get in touch at 
+          <a href="/participate" target="_blank">Learn more</a>, or get in touch at
           <a href="mailto:manuel_gorotiza@brown.edu" class="secondary">manuel_gorotiza@brown.edu</a>
           <br><span class="sponsors-subtext">You'll reach Manny Gorotiza, lead organizer.</span></p>
       </div>
@@ -216,7 +221,8 @@ css:
   </section>
 
   <section id="schedule">
-    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+      viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 0 L100 100 L100 0 Z"></path>
     </svg>
 
@@ -224,9 +230,10 @@ css:
       <div class="row">
         <div class="header">
           <h2>2017 Schedule</h2>
-          <p>Curious what Startup at Brown looks like? Here's the great programming from last year. Stay tuned for updates.</p>
+          <p>Curious what Startup at Brown looks like? Here's the great programming from last year. Stay tuned for
+            updates.</p>
         </div>
-         <div class="timeline">
+        <div class="timeline">
           <div id="saturday" class="tl-day">
             <h3>Saturday, September 30, 2017</h3>
             <ul>
@@ -263,9 +270,9 @@ css:
                 <span class="tl-title">Dinner</span>
               </li>
             </ul>
-         </div>
+          </div>
 
-         <!-- <div id="sunday" class="tl-day">
+          <!-- <div id="sunday" class="tl-day">
           <h3>Sunday, Sept 27</h3>
           <ul>
               <li>
@@ -295,7 +302,8 @@ css:
   </section>
 
   <section id="workshops-section">
-    <svg class="slant redslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant redslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102"
+      preserveAspectRatio="none">
       <path d="M0 0 L100 100 L100 0 Z"></path>
     </svg>
     <div class="container">
@@ -351,7 +359,8 @@ css:
   </section>
 
   <section id="faq">
-    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant whiteslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+      viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 0 L100 100 L100 0 Z"></path>
     </svg>
     <div class="container">
@@ -359,34 +368,47 @@ css:
         <div id="faq-questions" class="col-sm-7">
           <h2>FAQs</h2>
           <h3>Who can attend Startup@Brown?</h3>
-          <p>All Brown and RISD undergraduate and graduate students are welcome to apply. A background in computer science, design, engineering, or business is recommended but not required! </p>
-          <p>Student Startups from other colleges are welcome too. Follow our facebook page to stay tuned for student startup applications.</p>
+          <p>All Brown and RISD undergraduate and graduate students are welcome to apply. A background in computer
+            science, design, engineering, or business is recommended but not required! </p>
+          <p>Student Startups from other colleges are welcome too. Follow our facebook page to stay tuned for student
+            startup applications.</p>
           <h3>Why Startup@Brown?</h3>
-          <p>As Brown students, while we get a lot of exposure to larger companies, we don’t often hear about the exciting work startups do and the challenges they face. At Startup@Brown, you’ll get the chance to talk in small groups with founders, engineering leads, and venture capitalists from Andreessen Horowitz, Y Combinator, Teespring, and more. Come to learn about startups and their stories. Leave with a new perspective and your next summer internship or full-time job.</p>
+          <p>As Brown students, while we get a lot of exposure to larger companies, we don’t often hear about the
+            exciting work startups do and the challenges they face. At Startup@Brown, you’ll get the chance to talk in
+            small groups with founders, engineering leads, and venture capitalists from Andreessen Horowitz, Y
+            Combinator, Teespring, and more. Come to learn about startups and their stories. Leave with a new
+            perspective and your next summer internship or full-time job.</p>
           <h3>What will the event be like?</h3>
-          <p>Startup@Brown is a day-long event where you’ll have the chance to interact closely with startup founders, many of them alumni.</p>
-          <p>The event will start with a fair, introducing you to 15 startups, and then split into small-group conversations and workshops like “What is Product Management” to “Exploring Accelerators.” Meet with engineers and designers, discuss the technical problems they’re trying to solve, and maybe they'll interest you enough for an internship or job :).</p>
+          <p>Startup@Brown is a day-long event where you’ll have the chance to interact closely with startup founders,
+            many of them alumni.</p>
+          <p>The event will start with a fair, introducing you to 15 startups, and then split into small-group
+            conversations and workshops like “What is Product Management” to “Exploring Accelerators.” Meet with
+            engineers and designers, discuss the technical problems they’re trying to solve, and maybe they'll interest
+            you enough for an internship or job :).</p>
           <h3>How do I apply?</h3>
           <p>Registrations open soon, stay tuned!</p>
           <!--<p>Register for Startup@Brown 2017 </p>-->
           <h3>When will I find out if I'm accepted?</h3>
-          <p>We'd love if everyone could attend, but we usually receive way more interest than the space available. We'll tell you if you have a spot by Sept. 18 at night.</p>
+          <p>We'd love if everyone could attend, but we usually receive way more interest than the space available.
+            We'll tell you if you have a spot by Sept. 18 at night.</p>
         </div>
 
         <div id="questions-contact" class="col-sm-4">
-            <p id="questions"><b>QUESTIONS?</b></p>
-            <a class="aside-email" href="mailto:hello@startupatbrown.org">hello@startupatbrown.org</a><br>
-           <small>You'll reach Manny Gorotiza.</small>
+          <p id="questions"><b>QUESTIONS?</b></p>
+          <a class="aside-email" href="mailto:hello@startupatbrown.org">hello@startupatbrown.org</a><br>
+          <small>You'll reach Manny Gorotiza.</small>
         </div>
       </div>
     </div>
   </section>
 
   <section id="map">
-    <svg class="slant grayslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant grayslant top" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102"
+      preserveAspectRatio="none">
       <path d="M0 0 L0 100 L100 0 Z"></path>
     </svg>
-    <svg class="slant whiteslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <svg class="slant whiteslant bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100"
+      viewBox="0 0 100 102" preserveAspectRatio="none">
       <path d="M0 100 L105 100 L0 2 Z"></path>
     </svg>
     <div class="container">
@@ -398,7 +420,8 @@ css:
         </div>
       </div>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.9403349418553!2d-71.40211339999999!3d41.829582900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e445230eba9fed%3A0x40de006467cd1fd2!2sAlumnae+Hall!5e0!3m2!1sen!2sus!4v1440657639294" width="100%" height="650px" frameborder="30px" style="border:0; pointer-events: none;" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.9403349418553!2d-71.40211339999999!3d41.829582900000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e445230eba9fed%3A0x40de006467cd1fd2!2sAlumnae+Hall!5e0!3m2!1sen!2sus!4v1440657639294"
+      width="100%" height="650px" frameborder="30px" style="border:0; pointer-events: none;" allowfullscreen></iframe>
   </section>
 
   <section id="register">
@@ -407,7 +430,8 @@ css:
         <div class="col-sm-6">
           <h2>Register</h2>
           <p class="large">Meet amazing startups and find your next internship or full-time job.</p>
-          <a href="https://startupatbrown.typeform.com/to/hxikZV" id="bottom-register-button"class="btn btn-primary">Register Here</a>
+          <a href="https://startupatbrown.typeform.com/to/hxikZV" id="bottom-register-button" class="btn btn-primary">Register
+            Here</a>
           <!-- <p>Or <a href="/volunteer" class="secondary">sign up to be a volunteer.</a></p> -->
         </div>
       </div>
@@ -416,13 +440,14 @@ css:
 
   <section id="share">
     <div class="container">
-      <div class="fb-like" data-href="https://facebook.com/startupatbrown" data-width="300px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+      <div class="fb-like" data-href="https://facebook.com/startupatbrown" data-width="300px" data-layout="standard"
+        data-action="like" data-show-faces="true" data-share="true"></div>
     </div>
   </section>
 
   {% include footer.html %}
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- JavaScript -->
   <script src="/js/jquery-2.1.4.min.js"></script>
@@ -432,7 +457,7 @@ css:
 
   <script src="/js/jquery.scrolldepth.min.js"></script>
   <script>
-    jQuery(function() {
+    jQuery(function () {
       jQuery.scrollDepth();
     });
   </script>
