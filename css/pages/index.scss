@@ -222,7 +222,8 @@ svg.slant {
   background: -webkit-linear-gradient(
     rgba(255, 60, 102, 0.9) 1.17%,
     #ff0b40 110%
-  ); // @include linear-gradient(left, rgba(255,60,102,0.9) 1.17%, $brand-red 110%);
+  );
+  // @include linear-gradient(left, rgba(255,60,102,0.9) 1.17%, $brand-red 110%);
   @media (max-width: $screen-sm-max) {
     transform: translate(95%, -20%) rotate(30deg);
     -webkit-transform: translate(95%, -20%) rotate(30deg);
@@ -297,8 +298,7 @@ svg.slant {
   width: 100%;
   margin: 0;
   padding: 0;
-  list-style: none;
-  /* Clearfix */
+  list-style: none; /* Clearfix */
   &:after {
     content: '';
     display: table;
