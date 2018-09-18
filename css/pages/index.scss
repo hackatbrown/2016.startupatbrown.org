@@ -78,9 +78,6 @@ svg.slant {
   background: rgba(0, 0, 0, 0);
   text-align: center;
   border-bottom: 10px solid red;
-  @media (max-width: $screen-xs-max) {
-    height: 600px;
-  }
 }
 #first-impression {
   // -webkit-transform: translateZ(0);
@@ -127,6 +124,13 @@ svg.slant {
     font-size: small;
   }
 }
+#sub-info {
+  color: #dddddd;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
 #register-button {
   margin-top: 18px;
   color: #ffc963;
@@ -141,12 +145,14 @@ svg.slant {
   opacity: 0;
 }
 #register-button:after {
-  background: rgba(255, 201, 99, 0.89) !important;
+  background: rgba(240, 184, 82, 0.89) !important;
 } /* Background Shapes */
 .background {
   z-index: -1;
   .shape {
-    // visibility: hidden;
+    @media screen and(max-width: $screen-sm-max) {
+      display: none;
+    } // visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -222,7 +228,8 @@ svg.slant {
   background: -webkit-linear-gradient(
     rgba(255, 60, 102, 0.9) 1.17%,
     #ff0b40 110%
-  ); // @include linear-gradient(left, rgba(255,60,102,0.9) 1.17%, $brand-red 110%);
+  );
+  // @include linear-gradient(left, rgba(255,60,102,0.9) 1.17%, $brand-red 110%);
   @media (max-width: $screen-sm-max) {
     transform: translate(95%, -20%) rotate(30deg);
     -webkit-transform: translate(95%, -20%) rotate(30deg);
@@ -297,8 +304,7 @@ svg.slant {
   width: 100%;
   margin: 0;
   padding: 0;
-  list-style: none;
-  /* Clearfix */
+  list-style: none; /* Clearfix */
   &:after {
     content: '';
     display: table;
@@ -328,6 +334,12 @@ svg.slant {
       @media (max-width: $screen-xs-max) {
         margin-top: 80px;
       }
+      .speaker-label {
+        height: 130px;
+        @media (max-width: $screen-xs-max) {
+          height: 70px;
+        }
+      }
     }
     &:nth-child(2) {
       margin-top: -190px;
@@ -336,9 +348,14 @@ svg.slant {
       }
     }
     &:nth-child(3) {
-      @media (max-width: $screen-sm-max) {
+      .speaker-label {
+        height: 130px;
+        @media (max-width: $screen-xs-max) {
+          height: 160px;
+        }
       }
-    } // &:nth-child(4) { // border-right-width: 0; // }
+    }
+    // &:nth-child(4) { // border-right-width: 0; // }
     &:nth-child(4) {
       margin-top: -45px;
       border-right-width: 0;
@@ -368,7 +385,7 @@ svg.slant {
   right: 0;
   height: 70px;
   padding: 10px 16px;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.35);
   p {
     margin: 0;
     padding: 0;
@@ -574,9 +591,24 @@ svg.slant {
 }
 .company-row {
   margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   @media (max-width: $screen-sm-max) {
     margin-bottom: 0;
   }
+}
+.company-row .text-logo {
+  font-size: 24px;
+  color: #6a6a6a;
+  font-weight: 800;
+  margin-right: 65px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+#deliverydudes {
+  height: 35px;
 }
 .company-row img {
   height: 65px;

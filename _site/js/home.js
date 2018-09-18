@@ -1,20 +1,20 @@
 $(document).ready(function() {
+  // if (isSafari()) {
+  //  console.log("SA FA RI");
 
+  //  return;
+  // }
 
- // if (isSafari()) {
- //  console.log("SA FA RI");
-
-
- //  return;
- // }
-
-
- if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+  if (
+    !/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(
+      navigator.userAgent || navigator.vendor || window.opera
+    )
+  ) {
     skrollr.init({
-        forceHeight: false,
-        smoothScrolling: false
-    });
-}
+      forceHeight: false,
+      smoothScrolling: false
+    })
+  }
 
   /* Intialize Skrollr */
   // skrollr.init({
@@ -35,9 +35,9 @@ $(document).ready(function() {
   // });
 
   /* Initialize WOW.js */
-  new WOW().init();
-});
+  new WOW().init()
+})
 
 function isSafari() {
-    return /^((?!chrome).)*safari/i.test(navigator.userAgent);
+  return /^((?!chrome).)*safari/i.test(navigator.userAgent)
 }
