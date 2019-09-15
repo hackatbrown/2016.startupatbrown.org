@@ -1,11 +1,11 @@
 # Site settings
-title: Startup@Brown 2018
+title: Startup@Brown 2019
 email: hello@startupatbrown.org
 description: Connecting students and startups.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://startupatbrown.org" # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'http://startupatbrown.org' # the base hostname & protocol for your site
 twitter_username: startupatbrown
-github_username:  startupatbrown
+github_username: startupatbrown
 port: 4444
 # Build settings
 markdown: kramdown
